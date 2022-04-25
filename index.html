@@ -148,8 +148,12 @@
 
 </div>
 <script>
+    const inputNumber = document.getElementById('input-number')
     const clickmebutton = document.getElementById('click-me-button')
-
+    clickmebutton.addEventListener('click',() =>{
+        const number = Number(inputNumber.value)
+        alert('你輸入了:'+ number)
+    })
 </script>
 </body>
 </html>
